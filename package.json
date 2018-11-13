@@ -1,0 +1,19 @@
+{
+  "name": "full-stack-example1",
+  "version": "1.0.0",
+  "description": "vuejs node mongodb full-stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "dev":"nodemon server/index.js"
+  },
+  "author": "weifo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.9"
+  }
+}
